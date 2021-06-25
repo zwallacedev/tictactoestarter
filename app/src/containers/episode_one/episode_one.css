@@ -1,0 +1,86 @@
+.icon {
+    font-size: 100px;
+}
+
+
+/*
+Copy everything below into Board.css but add a `custom-` between the . and the name for everything
+.custom-board {
+  //keep all attributes the same
+}
+
+.custom-top-row {
+  //keep all attributes the same
+}
+*/
+.board {
+    height: 600px;
+    width: 600px;
+    background: rgb(183, 183, 199);
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.top-row {
+    background: white;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.middle-row {
+    background: white;
+    width: 100%;
+    height: 200px;
+}
+
+.bottom-row {
+    background: white;
+    width: 100%;
+    height: 200px;
+}
+
+.elementOne {
+    width: 100%;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.elementTwo {
+    width: 100%;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.elementThree {
+    width: 100%;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.elementFour {
+    width: 100%;
+}
+
+.elementFive {
+    width: 100%;
+}
+
+.elementSix {
+    width: 100%;
+}
+
+.elementSeven {
+    width: 100%;
+}
+
+.elementEight {
+    width: 100%;
+}
+
+.elementNine {
+    width: 100%;
+}
